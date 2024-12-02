@@ -1,0 +1,34 @@
+* {
+  transition: 1s;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #131921;
+  color: #fff;
+}
+
+#navbar-start,
+#navbar-middle,
+#navbar-end {
+  display: flex;
+  align-items: center;
+}
+
+#navbar-middle {
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  /* padding: p */
+}
+
+#home-logo {
+  width: 90px;
+  /* color: #fff; */
+  background-color: #131921;
+}
