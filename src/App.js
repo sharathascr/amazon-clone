@@ -1,10 +1,14 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import LandingPage from "./Pages/LandingPage";
-import { BrowserRouter } from "react-router/dist/development";
+import Routing from "./Navigation/Routing";
+import Navbar from "./pagecomponents/Navbar/Navbar";
 
 function App() {
-  return <BrowserRouter></BrowserRouter>;
+  return (
+    <>
+      <Navbar />
+      <Routing />
+    </>
+  );
 }
 
 export default App;

@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import amazonlogo from "../../Assets/Amazon-logo.png";
 import { Grid, GridColumn, Search } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -43,9 +44,15 @@ function Navbar() {
         </div>
       </div>
       <div id="navbar-end">
-        <div className="nav-item">Login</div>
-        <div className="nav-item">signup</div>
-        <div className="nav-item">cart</div>
+        <Link className="nav-item" to={"/login"}>
+          Login
+        </Link>
+        <Link className="nav-item" to={"/signup"}>
+          signup
+        </Link>
+        <Link className="nav-item" to={"/cart"}>
+          cart
+        </Link>
       </div>
     </div>
   );
