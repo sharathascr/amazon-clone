@@ -8,6 +8,7 @@
   padding: 10px;
   background-color: #131921;
   color: #fff;
+  font-family: sans-serif;
 }
 
 #navbar-start,
@@ -31,4 +32,8 @@
   width: 90px;
   /* color: #fff; */
   background-color: #131921;
+}
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
