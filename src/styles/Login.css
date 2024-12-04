@@ -1,0 +1,77 @@
+#loginPage {
+  margin: 10px;
+}
+
+#amazon-logo {
+  width: 120px;
+}
+#logo-section {
+  display: flex;
+  justify-content: center;
+}
+#main-section,
+#bottom-section {
+  width: 23%;
+  margin: 10px auto;
+  border: 1px solid rgb(238, 230, 230);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px rgb(241, 240, 240);
+}
+#input-label {
+  font-weight: bold;
+  display: block;
+  font-size: 0.95rem;
+}
+#login-input-box {
+  width: 100%;
+  margin-bottom: 13px;
+  padding: 5px;
+}
+#login-continue-button {
+  width: 100%;
+  background-color: #ffd814;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 0.9rem;
+}
+#login-terms {
+  margin: 17px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.login-conditions {
+  color: rgb(17, 80, 216);
+  text-decoration: underline;
+}
+#login-need-help {
+  color: rgb(17, 80, 216);
+  font-size: 0.93rem;
+}
+#login-buy-for-work {
+  font-size: 0.94rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+#login-amazon-business {
+  font-size: 0.94rem;
+  color: rgb(17, 80, 216);
+}
+#bottom-section {
+  border: none;
+  margin: 20px auto;
+  padding: 0;
+  box-shadow: none;
+}
+#login-create-account {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid rgb(238, 230, 230);
+  padding: 5px;
+  font-size: 0.94rem;
+  box-shadow: 1px 1px rgb(241, 240, 240);
+}
