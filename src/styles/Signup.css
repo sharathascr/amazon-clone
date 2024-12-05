@@ -1,0 +1,6 @@
+#signup-message {
+  font-size: 13px;
+}
+::placeholder {
+  font-size: 13px;
+}
